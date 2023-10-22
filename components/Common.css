@@ -1,0 +1,16 @@
+.common{
+    background:
+    linear-gradient(rgba(0,0,0,0.562) , rgba(0,0,0,0.562)) ,
+    url('../photos/bedroom.jpg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    
+    align-items: center;
+}
+.common h1{
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+  justify-content: center;
+}

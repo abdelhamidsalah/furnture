@@ -1,0 +1,22 @@
+.info h3 .lin{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 13px;
+    text-decoration: none;
+}
+.productitem .bottom .price{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.productitem .bottom span i{
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50px;
+}
+.productitem{
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.details{
+    margin-top: 150px;
+}
+.details h2{
+    font-size: 1.8rem;
+}
+
+.details .rating span i{
+    color: coral;
+}
+.details .rating p span{
+    color: coral;
+}
+.prodet .price{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.prodet .des{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.prodet .bbttnn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.review .rev h6{
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+.revi ul li span{
+    font-weight: 600;
+    color: coral;
+}
+.revi ul li p{
+    margin-top: 10px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+    margin: 50px;
+}
+.form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.form .form1 input{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+.form .form2 textarea{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+.form .stars{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form .stars span{
+    color: coral;
+    font-weight: 600;
+    cursor: pointer;
+}
+.form .submit{
+    margin-top: 30px;
+    background-color: var(--primary-color);
+    padding: 6px 24px;
+    color: white;
+    border-radius: 5px;
+}

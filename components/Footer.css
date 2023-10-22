@@ -1,0 +1,21 @@
+.footer{
+    background-color: var(--primary-color);
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.footer  .lin {
+text-decoration: none;
+color:var(--primary-color);
+color: rgb(222, 220, 220);
+line-height: 40px;
+}
+.footer h2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: rgb(222, 220, 220);
+    line-height: 30px;
+}

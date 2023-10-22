@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --card-bg-01: #fdefe6;
+    --card-bg-02: #d6e5fb;
+    --card-bg-03: #ceebe9;
+    --card-bg-04: #e2f2b2;
+    --primary-color: #0a1d37;
+    --hero-bg: #d6e5fb;
+    --heading-fontSize: 2rem;
+    --small-text-color: #999;
+    --heading-text-color: #0a1d37;
+  }
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "source sans pro" , sans-serif;
+}
+:root{
+    --primary:#032541;
+    --secondary:#21d07a;
+    --white:#fff;
+}
+
+.container{
+padding-right:15px;
+padding-left:15px;
+margin-right:auto;
+margin-left:auto;
+}
+*:before , *:after{
+    box-sizing: border-box;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+input:focus{
+    outline: none;
+}
+@media (min-width :768px)
+{
+.container {width:750px}
+}
+@media (min-width :992px)
+{
+.container {width:970px}
+}
+@media (min-width :1200px)
+{
+.container {width:1170px}
+}
+.btn{
+padding:10px 15px;
+background-color:var(--secondary);
+border:none;
+color:var(--primary);
+border-radius:5px;
+text-transform:uppercase;
+transition: all 0.3s ease;
+line-height:1.1;
+font-weight:700;
+font-size:1rem;
+}
+.btn:hover{
+    background-color:#1aa762;
+    opacity:1;
+    cursor:pointer;
+}
+.btn:disabled{
+    pointer-even
+    opacity:0.5;
+    cursor:pointer;
+}
+*/

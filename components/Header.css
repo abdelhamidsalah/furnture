@@ -1,0 +1,138 @@
+.header{
+    width: 100%;
+    height: 70px;
+    padding: 20px 0px;
+    
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background-color: var( --card-bg-01);
+}
+@media  screen and (max-width:768px){
+ .header .navss{
+    position: fixed;
+    top: 0;
+    left: 0;
+   width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+    z-index: 9999;
+    display: none;
+ }
+.header .navss .menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: white !important;
+    z-index: 99999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .header .navss .menu li{
+    margin-bottom: 20px;
+ }
+ .header .mobilemenu{
+    display: block !important;
+ }
+ .active_menu{
+    display: block !important;
+ }
+ .logo h2{
+    font-size: 1rem !important;
+    
+ }
+ .logo img{
+    width: 1rem;
+    height: 1rem;
+ }
+ .header .nnaavv .icons span i{
+    font-size: 1.3rem !important;
+ }
+ .header .nnaavv .icons .num1 , .header .nnaavv .icons .num2{
+    width: 13px !important;
+    height: 13px !important;
+ }
+ .header .nnaavv .icons{
+  column-gap: 0.8rem !important;
+ }
+}
+.header .nnaavv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .nnaavv .logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.logo h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+.navss ul{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+}
+.navss ul li .nav{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.header .nnaavv .mobilemenu{
+    display: none;
+    font-size: 1.3rem;
+}
+.header .nnaavv .icons {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+.header .nnaavv .icons img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.header .nnaavv .icons span i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.header .nnaavv .icons .heart , .header .nnaavv .icons .bag{
+    position: relative;
+}
+.header .nnaavv .icons .num1 , .header .nnaavv .icons .num2{
+    position: absolute;
+    content: "";
+    right: -8%;
+    top: 15%;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    z-index: 10;
+}
+.active{
+    font-weight: 800 !important;
+}

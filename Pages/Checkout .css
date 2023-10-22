@@ -1,0 +1,41 @@
+
+.check{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.check .f1 input{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.check h6{
+    margin-bottom: 30px;
+}
+form .f1 input{
+    border: 1px solid var(--card-bg-02);
+}
+.check2{
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.check2 h6 , .check2 h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check2 .free{
+    border-top: 1px solid rgba(221, 221, 221, 0.253);
+    padding-top: 20px;
+}
+.check2 button{
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+}
